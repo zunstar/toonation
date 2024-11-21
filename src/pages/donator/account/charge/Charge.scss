@@ -1,0 +1,54 @@
+.charge-wrapper {
+  button {
+    border: none;
+  }
+  input {
+    outline: unset;
+  }
+  .tab {
+    border-bottom: 1px solid #e9ecef;
+    &.active {
+      border-bottom: 2px solid #519cff;
+    }
+  }
+
+  .cash-input {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    input {
+      border: none;
+    }
+
+    &.active {
+      border: 2px solid #519cff;
+    }
+    button {
+      background-color: transparent;
+    }
+  }
+
+  .cash-button {
+    button {
+      color: #656d75;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+  }
+
+  .payment-change {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .payment-charge {
+    border-radius: 10px;
+    background-color: #519cff;
+    color: #fff;
+  }
+
+  .local-payment {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}

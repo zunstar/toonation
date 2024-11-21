@@ -1,0 +1,27 @@
+.card-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+}
+
+.card {
+  flex: 0 0 auto;
+  width: 242px;
+  height: 148px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #0000001a;
+  text-align: center;
+
+  &.kakaoPay {
+    background-color: #ffeb03;
+  }
+  &.naverPay {
+    background-color: #01de5a;
+  }
+  &.tossPay {
+    background-color: #0050ff;
+    color: #fff;
+  }
+}

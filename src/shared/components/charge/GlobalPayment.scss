@@ -1,0 +1,17 @@
+.global-payment-wrapper {
+  li {
+    flex: 0 0 calc(50% - 12px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 48px;
+
+    &.active {
+      border: 2px solid #519cff;
+    }
+    p {
+      &.active {
+        color: #519cff;
+      }
+    }
+  }
+}
